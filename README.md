@@ -8,7 +8,7 @@ __struct.lua__ is compatible with [Lua 5.1](http://www.lua.org/versions.html#5.1
 
 Copy the file [struct.lua](https://github.com/mpatraw/struct.lua/blob/master/struct.lua) inside your project folder, call it using the [require](http://www.lua.org/manual/5.1/manual.html#pdf-require) function. It will return a single object.
 
-##Quicktour (for v0.1)
+##Quicktour (for v0.2)
 
 ###Definitions
 
@@ -84,3 +84,7 @@ Return the definition of an instantiated struct. You could do: `struct.definitio
 ####struct.pairs(val)
 
 All of a struct's members are hidden, so if you want to iterate over the whole struct, you must use this.
+
+####struct.enum {"enum1", "enum2"}
+
+Create an enum definition that can be used inside structs.
