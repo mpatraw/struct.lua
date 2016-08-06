@@ -1,12 +1,12 @@
 local struct = require("struct")
 
 local vector = struct {
-	x = 0, y = 0
+    x = 0, y = 0
 }
 
 local rect = struct {
-	-- both are restricted to only vector structs.
-	pos = vector(), siz = vector()
+    -- both are restricted to only vector structs.
+    pos = vector(), siz = vector()
 }
 
 local r = rect()

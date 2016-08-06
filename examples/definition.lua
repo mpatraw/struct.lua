@@ -2,8 +2,8 @@
 local struct = require("struct")
 
 local vector = struct {
-	x = 0,
-	y = 0
+    x = 0,
+    y = 0
 }
 
 -- still just a table.
