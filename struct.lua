@@ -23,7 +23,7 @@ function M.pairs(s)
 	if M.type(s) ~= "struct" then
 		error("error: called pairs on non-struct", 2)
 	end
-	return pairs(s.___guts)
+	return pairs(rawget(s, "___guts"))
 end
 
 local structmt = {
