@@ -2,7 +2,7 @@
 
 __struct.lua__ offers a type-checked table definition.
 
-__struct.lua__ is compatible with [Lua 5.1](http://www.lua.org/versions.html#5.1) and [Lua 5.2](http://www.lua.org/versions.html#5.2).
+__struct.lua__ is compatible with [Lua 5.1](http://www.lua.org/versions.html#5.1), [Lua 5.2](http://www.lua.org/versions.html#5.2) and [Lua 5.3](http://www.lua.org/versions.html#5.3).
 
 ##Installation
 

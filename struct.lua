@@ -43,6 +43,9 @@ local structmt = {
 		else
 			error("error: cannot assign type " .. vtype .. " to " .. k .. " (" ..M.type(rawget(t, "___def")[k]) .. ")" , 2)
 		end
+	end,
+	__pairs = function(self)
+		return M.pairs(self)
 	end
 }
 
