@@ -88,3 +88,7 @@ All of a struct's members are hidden, so if you want to iterate over the whole s
 ####struct.enum {"enum1", "enum2"}
 
 Create an enum definition that can be used inside structs.
+
+####struct.ipairs(enum)
+
+Same as struct.pairs but for enums.
