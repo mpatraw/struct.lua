@@ -76,7 +76,7 @@ local structmt = {
                 error("error: wrong struct assigned to " .. k, 2)
             end
         elseif vtype == "enum" then
-
+        	t.___guts[k] = v
         elseif M.type(t.___def[k]) == vtype then
             t.___guts[k] = v
         else
@@ -85,6 +85,9 @@ local structmt = {
     end,
     __pairs = function(self)
         return M.pairs(self)
+    end,
+    __ipairs = function(self)
+        return M.ipairs(self)
     end
 }
 

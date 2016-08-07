@@ -8,6 +8,7 @@ local days = struct.enum {
 print(struct.type(days))
 print(struct.type(days.monday))
 print(days.monday)
+--print(days.fryday)
 
 local schedule = struct {
     day = days.monday
@@ -16,4 +17,4 @@ local schedule = struct {
 local s = schedule()
 
 print(s.day.value, s.day.name)
-s.day = 5
+--s.day = 5
