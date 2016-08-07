@@ -1,4 +1,4 @@
-package = 'struct'
+package = 'struct.lua'
 version = '0.1-0'
 source = {
     url = 'git://github.com/mpatraw/struct.lua',
@@ -12,7 +12,7 @@ description = {
     license = 'ICS'
 }
 dependencies = {
-    'lua => 5.1, <= 5.3'
+    'lua >= 5.1, <= 5.3'
 }
 build = {
     type = 'builtin',
